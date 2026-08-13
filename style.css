@@ -243,6 +243,12 @@
 .s4_img {
   width: 100%;
 }
+.s4_right
+{
+  margin-top: 200px;
+  line-height: 1.2;
+}
+
 
 /* section5 */
 .section5 {
@@ -336,5 +342,12 @@
   .s5_icon
   {
     padding: 20px 0px;
+  }
+  .s2_right,
+  .s4_right{
+    margin-top: 0px;
+  }
+  .s5_middle{
+    margin: 20px 0px;
   }
 }
