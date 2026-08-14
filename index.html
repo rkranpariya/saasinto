@@ -149,8 +149,8 @@
       <div class="wapper">
         <div class="section5">
             <div class="s5_left">
-                <h2 class="h_h2"> <span class="h2_span">SI</span>SaaSIntro</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
+                <h2 class="s5_h2"> <span class="h2_span">SI</span>SaaSIntro</h2>
+                <p class="s5-p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dinonumy eirmod tempor invidunt.</p>
                 <div class="s5_icon">
                     <a href="#" class="s5_a2"><i class="fa-brands fa-facebook s5_i"></i></a>
                     <a href="#" class="s5_a2"><i class="fa-brands fa-linkedin-in s5_i"></i></a>
@@ -201,6 +201,13 @@ window.addEventListener("scroll", function () {
         header.classList.remove("active");
     }
 });
+
+
+let menu=document.querySelector(".h_ul");
+let  icon=document.querySelector(".h_icon");
+icon.addEventListener("click",()=>{
+    menu.classList.toggle("show");
+})
 </script>
 <!-- <script>
     let hed=document.getElementsByClassName("header1");
