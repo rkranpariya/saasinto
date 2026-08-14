@@ -413,10 +413,14 @@
   .s5_left,
   .s5_middle,
   .s5_right,
-  .s5_mi_left,
-  .s5_mi_right,
+ 
   .s5_input {
     width: 100%;
+  }
+   .s5_mi_left,
+  .s5_mi_right
+  {
+    width: 50%;
   }
   .s5_right {
     align-items: center;
