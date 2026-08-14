@@ -309,6 +309,11 @@
   margin-top: 200px;
   line-height: 1.2;
 }
+@media (max-width:992px) {
+  .section4{
+    justify-content: center;
+  }
+}
 @media (max-width:567px) {
   .section4{
     gap:30px;
@@ -404,6 +409,7 @@
   .s3_left,
   .s3_right,
   .s4_left,
+  .s4_right,
   .s5_left,
   .s5_middle,
   .s5_right,
