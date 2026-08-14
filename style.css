@@ -107,6 +107,10 @@
     padding: 15px 10px;
     z-index: 999;
   }
+  .h_ul:active
+  {
+    display: none;
+  }
   .h_ul.show
   {
     display: flex;

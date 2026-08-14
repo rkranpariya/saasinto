@@ -202,11 +202,16 @@ window.addEventListener("scroll", function () {
     }
 });
 
-
 let menu=document.querySelector(".h_ul");
 let  icon=document.querySelector(".h_icon");
 icon.addEventListener("click",()=>{
     menu.classList.toggle("show");
+})
+
+// scroll time navbar not show
+window.addEventListener("scroll",function()
+{
+   menu.classList.remove("show");
 })
 </script>
 <!-- <script>
