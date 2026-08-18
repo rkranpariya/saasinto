@@ -333,8 +333,15 @@
 .s5_left {
   width: 30%;
 }
+.s5_icon
+{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
 .s5_i {
   font-size: 20px;
+  
 }
 .s5-p
 {
@@ -343,10 +350,13 @@
 }
 .s5_a2 {
   background-color: #adf6fb;
-  padding: 10px;
+   display: inline-flex;
   color: black;
   border-radius: 50%;
+  justify-content: center;
+  text-decoration: none;
   align-items: center;
+  padding: 10px;
 }
 .s5_middle {
   width: 30%;
@@ -362,10 +372,12 @@
 }
 .s5_ul {
   list-style: none;
+ 
 }
 .s5_a {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 .s5_input {
   background-color: #75dfe7;
