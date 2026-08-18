@@ -437,6 +437,9 @@
   .s5_input {
     width: 100%;
   }
+  .s5_icon {
+    justify-content: center;
+  }
   .s5_right {
     align-items: center;
   }
